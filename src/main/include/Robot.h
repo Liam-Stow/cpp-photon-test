@@ -2,6 +2,9 @@
 
 #include <frc/TimedRobot.h>
 
+// Culprit:
+#include <photon/simulation/PhotonCameraSim.h>
+
 class Robot : public frc::TimedRobot {
  public:
   Robot();

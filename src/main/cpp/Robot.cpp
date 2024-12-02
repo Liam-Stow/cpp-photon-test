@@ -1,9 +1,7 @@
 #include "Robot.h"
-#include <photon/PhotonCamera.h>
 
-Robot::Robot() {
-  photon::PhotonCamera camera("cam0");
-}
+
+Robot::Robot() {}
 void Robot::RobotPeriodic() {}
 
 void Robot::AutonomousInit() {}
