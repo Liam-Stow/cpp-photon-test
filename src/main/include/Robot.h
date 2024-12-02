@@ -3,7 +3,7 @@
 #include <frc/TimedRobot.h>
 
 // Culprit:
-#include <photon/simulation/PhotonCameraSim.h>
+#include <cameraserver/CameraServer.h>
 
 class Robot : public frc::TimedRobot {
  public:
