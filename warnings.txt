@@ -1,0 +1,19 @@
+> Task :compileFrcUserProgramReleaseExecutableFrcUserProgramCpp
+Warnings in file Robot.cpp ....
+In file included from C:\Users\user\.gradle\caches\8.10.2\transforms\b21211e3f0e2860a6b96abf082501de9\transformed\photonlib-cpp-v2025.0.0-beta-8-headers/photon/simulation/PhotonCameraSim.h:31,
+                 from C:\Users\user\.gradle\caches\8.10.2\transforms\b21211e3f0e2860a6b96abf082501de9\transformed\photonlib-cpp-v2025.0.0-beta-8-headers/photon/simulation/VisionSystemSim.h:38,
+                 from C:\src\icrobotics\cpp-photon-test\src\main\include/Robot.h:6,
+                 from C:\src\icrobotics\cpp-photon-test\src\main\cpp\Robot.cpp:1:
+C:\Users\user\.gradle\caches\8.10.2\transforms\ba6d2d39cca1288f8b471feb14a98f32\transformed\photontargeting-cpp-v2025.0.0-beta-8-headers/photon/estimation/VisionEstimation.h:51:33: warning: 'std::optional<photon::PnpResult> photon::VisionEstimation::EstimateCamPosePNP(const Eigen::Matrix<double, 3, 3>&, const Eigen::Matrix<double, 8, 1>&, const std::vector<photon::PhotonTrackedTarget>&, const frc::AprilTagFieldLayout&, const photon::TargetModel&)' defined but not used [-Wunused-function]
+   51 | static std::optional<PnpResult> EstimateCamPosePNP(
+      |                                 ^~~~~~~~~~~~~~~~~~
+
+> Task :compileFrcUserProgramDebugExecutableFrcUserProgramCpp
+Warnings in file Robot.cpp ....
+In file included from C:\Users\user\.gradle\caches\8.10.2\transforms\b21211e3f0e2860a6b96abf082501de9\transformed\photonlib-cpp-v2025.0.0-beta-8-headers/photon/simulation/PhotonCameraSim.h:31,
+                 from C:\Users\user\.gradle\caches\8.10.2\transforms\b21211e3f0e2860a6b96abf082501de9\transformed\photonlib-cpp-v2025.0.0-beta-8-headers/photon/simulation/VisionSystemSim.h:38,
+                 from C:\src\icrobotics\cpp-photon-test\src\main\include/Robot.h:6,
+                 from C:\src\icrobotics\cpp-photon-test\src\main\cpp\Robot.cpp:1:
+C:\Users\user\.gradle\caches\8.10.2\transforms\ba6d2d39cca1288f8b471feb14a98f32\transformed\photontargeting-cpp-v2025.0.0-beta-8-headers/photon/estimation/VisionEstimation.h:51:33: warning: 'std::optional<photon::PnpResult> photon::VisionEstimation::EstimateCamPosePNP(const Eigen::Matrix<double, 3, 3>&, const Eigen::Matrix<double, 8, 1>&, const std::vector<photon::PhotonTrackedTarget>&, const frc::AprilTagFieldLayout&, const photon::TargetModel&)' defined but not used [-Wunused-function]
+   51 | static std::optional<PnpResult> EstimateCamPosePNP(
+      |                                 ^~~~~~~~~~~~~~~~~~
